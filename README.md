@@ -1,4 +1,4 @@
-# Hi there 👋, I'm [Your Name]!
+# Hi there 👋, I'm Aorko!
 
 ## 🚀 About Me
 I'm a **passionate competitive programmer** and full-stack developer with a keen interest in algorithms and data structures. I love solving challenging problems and building innovative solutions.  
@@ -21,8 +21,8 @@ I enjoy taking part in programming contests and improving my problem-solving ski
 I'm always looking for new challenges and opportunities to expand my knowledge in tech!
 
 ### 📫 How to reach me:
-- **GitHub:** [Your GitHub URL]
-- **LinkedIn:** [Your LinkedIn URL]
+- **GitHub:** https://github.com/aorko01/
+- **LinkedIn:** https://www.linkedin.com/in/shahir-bin-julfiker-aorko-6ba990281/
 
 ---
 
