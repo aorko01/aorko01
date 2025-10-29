@@ -32,23 +32,23 @@ Developing a new plugin for OpenVINO that enables cross-platform model inference
 ### 1. Core Computer Science Foundations
 ```mermaid
 mindmap
-  root((CS Core))::blue
-    DSA::orange
-      Arrays & Lists::green
-      Trees & Graphs::green
-      Dynamic Programming::green
-    Systems::purple
-      OS Fundamentals::pink
-      Memory Management::pink
-      GPU Architecture::pink
-    Networks::yellow
-      TCP/IP::cyan
-      gRPC::cyan
-      Load Balancing::cyan
-    Databases::red
-      SQL/NoSQL::orange
-      Redis::orange
-      Distributed Storage::orange
+  root((CS Core))
+    DSA[DSA]
+      Arrays & Lists
+      Trees & Graphs
+      Dynamic Programming
+    Systems[Systems]
+      OS Fundamentals
+      Memory Management
+      GPU Architecture
+    Networks[Networks]
+      TCP/IP
+      gRPC
+      Load Balancing
+    Databases[Databases]
+      SQL/NoSQL
+      Redis
+      Distributed Storage
 ```
 
 ### 2. ML Infrastructure Stack
