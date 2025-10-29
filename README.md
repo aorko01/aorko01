@@ -32,23 +32,38 @@ Developing a new plugin for OpenVINO that enables cross-platform model inference
 ### 1. Core Computer Science Foundations
 ```mermaid
 mindmap
-  root((CS Core))
-    DSA[DSA]
-      Arrays & Lists
-      Trees & Graphs
-      Dynamic Programming
-    Systems[Systems]
-      OS Fundamentals
-      Memory Management
-      GPU Architecture
-    Networks[Networks]
-      TCP/IP
-      gRPC
-      Load Balancing
-    Databases[Databases]
-      SQL/NoSQL
-      Redis
-      Distributed Storage
+  root(("CS Core"))
+    dsa(("DSA"))
+      arrays["Arrays & Lists"]
+      trees["Trees & Graphs"]
+      dp["Dynamic Programming"]
+    systems(("Systems"))
+      os["OS Fundamentals"]
+      memory["Memory Management"]
+      gpu["GPU Architecture"]
+    networks(("Networks"))
+      tcp["TCP/IP"]
+      grpc["gRPC"]
+      load["Load Balancing"]
+    databases(("Databases"))
+      sql["SQL/NoSQL"]
+      redis["Redis"]
+      storage["Distributed Storage"]
+class dsa orange;
+class arrays,trees,dp green;
+class systems purple;
+class os,memory,gpu pink;
+class networks yellow;
+class tcp,grpc,load cyan;
+class databases red;
+class sql,redis,storage orange;
+classDef orange fill:#fca311,stroke:#222,stroke-width:2px,color:#fff;
+classDef green fill:#4caf50,stroke:#1b5e20,stroke-width:2px,color:#fff;
+classDef purple fill:#9c27b0,stroke:#4a148c,stroke-width:2px,color:#fff;
+classDef pink fill:#ff80ab,stroke:#880e4f,stroke-width:2px,color:#fff;
+classDef yellow fill:#f4d35e,stroke:#665c00,stroke-width:2px,color:#222;
+classDef cyan fill:#00bcd4,stroke:#006064,stroke-width:2px,color:#fff;
+classDef red fill:#e63946,stroke:#6d071a,stroke-width:2px,color:#fff;
 ```
 
 ### 2. ML Infrastructure Stack
@@ -67,7 +82,6 @@ mindmap
 
 ## 🌐 Socials:
 [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/aorko_404) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/shahir-bin-julfiker-aorko-6ba990281) 
-
 # 💻 Tech Stack
 
 ### Core Languages & Frameworks
