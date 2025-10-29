@@ -30,45 +30,30 @@ Developing a new plugin for OpenVINO that enables cross-platform model inference
 ## 🧠 Learning Journey: AI Infrastructure Engineering
 
 ### 1. Core Computer Science Foundations
-```mermaid
-mindmap
-  root(("CS Core"))
-    dsa(("DSA"))
-      arrays["Arrays & Lists"]
-      trees["Trees & Graphs"]
-      dp["Dynamic Programming"]
-    systems(("Systems"))
-      os["OS Fundamentals"]
-      memory["Memory Management"]
-      gpu["GPU Architecture"]
-    networks(("Networks"))
-      tcp["TCP/IP"]
-      grpc["gRPC"]
-      load["Load Balancing"]
-    databases(("Databases"))
-      sql["SQL/NoSQL"]
-      redis["Redis"]
-      storage["Distributed Storage"]
-class dsa orange;
-class arrays,trees,dp green;
-class systems purple;
-class os,memory,gpu pink;
-class networks yellow;
-class tcp,grpc,load cyan;
-class databases red;
-class sql,redis,storage orange;
-classDef orange fill:#fca311,stroke:#222,stroke-width:2px,color:#fff;
-classDef green fill:#4caf50,stroke:#1b5e20,stroke-width:2px,color:#fff;
-classDef purple fill:#9c27b0,stroke:#4a148c,stroke-width:2px,color:#fff;
-classDef pink fill:#ff80ab,stroke:#880e4f,stroke-width:2px,color:#fff;
-classDef yellow fill:#f4d35e,stroke:#665c00,stroke-width:2px,color:#222;
-classDef cyan fill:#00bcd4,stroke:#006064,stroke-width:2px,color:#fff;
-classDef red fill:#e63946,stroke:#6d071a,stroke-width:2px,color:#fff;
-```
+
+**Data Structures & Algorithms**
+- Arrays & Lists
+- Trees & Graphs
+- Dynamic Programming
+
+**Systems Programming**
+- OS Fundamentals
+- Memory Management
+- GPU Architecture
+
+**Networks**
+- TCP/IP
+- gRPC
+- Load Balancing
+
+**Databases**
+- SQL/NoSQL
+- Redis
+- Distributed Storage
 
 ### 2. ML Infrastructure Stack
 - 🔥 **Model Training**: PyTorch, JAX, TensorFlow
-- � **Distributed Systems**: PyTorch DDP, DeepSpeed, Megatron-LM
+- 🌐 **Distributed Systems**: PyTorch DDP, DeepSpeed, Megatron-LM
 - ⚡ **Hardware Acceleration**: CUDA, cuDNN, NCCL
 - 🐳 **Orchestration**: Kubernetes, Ray, Docker
 - 📊 **Monitoring**: Prometheus, Grafana, OpenTelemetry
@@ -82,6 +67,7 @@ classDef red fill:#e63946,stroke:#6d071a,stroke-width:2px,color:#fff;
 
 ## 🌐 Socials:
 [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/aorko_404) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/shahir-bin-julfiker-aorko-6ba990281) 
+
 # 💻 Tech Stack
 
 ### Core Languages & Frameworks
@@ -111,6 +97,7 @@ classDef red fill:#e63946,stroke:#6d071a,stroke-width:2px,color:#fff;
 ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
 ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
 ![Prisma](https://img.shields.io/badge/Prisma-3982CE?style=for-the-badge&logo=Prisma&logoColor=white)
+
 # 📊 GitHub Stats:
 ![](https://github-readme-stats.vercel.app/api?username=aorko01&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
 ![](https://github-readme-streak-stats.herokuapp.com/?user=aorko01&theme=dark&hide_border=false)<br/>
