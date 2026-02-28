@@ -1,109 +1,37 @@
-# 👨‍💻 Shahir Bin Julfiker Aorko
+# Shahir Bin Zulfiker Aorko
 
-> AI Infrastructure Engineer | Competitive Programmer | Full-Stack Developer
+ML Infrastructure Engineer focused on GPU programming, distributed systems, and high-performance training pipelines.
 
-## 🚀 About Me
+## Current Projects
 
-🎯 Currently focusing on AI hardware acceleration and cross-platform inference  
-🔭 Working on OpenVINO XLA plugin for multi-platform model deployment  
-🌱 Learning hardware-specific optimizations for GPUs, TPUs, and FPGAs  
-💬 Ask me about ML Infrastructure, Hardware Acceleration, and Competitive Programming
+**Distributed ML Task Scheduler**
+A cluster-level training job scheduler built for heterogeneous GPU environments. Users submit a training script and dataset through a web interface — the scheduler handles everything else: estimating VRAM requirements and runtime across different GPU types, binning multiple jobs onto a single GPU when headroom allows, checkpointing state so jobs resume from where they left off if a node goes down, and delivering stdout/stderr feedback on completion or failure. The goal is maximizing GPU utilization without the user having to think about it.
 
-## 🔥 Current Project: OpenVINO XLA Plugin
+**Flash Attention in Triton**
+Implementing and benchmarking Flash Attention from scratch using Triton kernels, then training GPT-2 on top of it to validate correctness and measure real-world throughput gains.
 
-Developing a new plugin for OpenVINO that enables cross-platform model inference:
+## Stack
 
-- 🔄 Converting OpenVINO IR to XLA representation (HLO/MLIR)
-- ⚡ Enabling model inference on diverse hardware:
-  - NVIDIA GPUs
-  - Google TPUs
-  - FPGA devices
-- 🎯 Supporting various model architectures:
-  - Convolutional Neural Networks (CNNs)
-  - Transformer-based models
-- 🛠️ Tech Stack:
-  - OpenVINO Framework
-  - XLA (Accelerated Linear Algebra)
-  - MLIR (Multi-Level IR)
-  - CUDA/GPU Programming
+**Languages** — Python, C++ (proficient) · Rust, Go (learning)
 
-## 🧠 Learning Journey: AI Infrastructure Engineering
+**ML & GPU** — PyTorch, PyTorch DDP, CUDA, Triton
 
-### 1. Core Computer Science Foundations
+**Infra & Orchestration** — Docker, Kubernetes, Ray, Prometheus
 
-**Data Structures & Algorithms**
-- Arrays & Lists
-- Trees & Graphs
-- Dynamic Programming
+**Previously** — Full-stack (React, Django, PostgreSQL, MongoDB)
 
-**Systems Programming**
-- OS Fundamentals
-- Memory Management
-- GPU Architecture
+## Profiles
 
-**Networks**
-- TCP/IP
-- gRPC
-- Load Balancing
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shahir-bin-zulfiker-aorko-6ba990281/)
+[![LeetCode](https://img.shields.io/badge/LeetCode-%23FFA116.svg?logo=leetcode&logoColor=white)](https://leetcode.com/u/aorko321/)
+[![Codeforces](https://img.shields.io/badge/Codeforces-%231F8ACB.svg?logo=codeforces&logoColor=white)](https://codeforces.com/profile/broken_brain)
+[![LeetGPU](https://img.shields.io/badge/LeetGPU-%2376B900.svg?logo=nvidia&logoColor=white)](https://leetgpu.com/profile?display_name=aorko01)
+[![Medium](https://img.shields.io/badge/Medium-%23000000.svg?logo=medium&logoColor=white)](https://medium.com/@aorko321)
+[![dev.to](https://img.shields.io/badge/dev.to-%230A0A0A.svg?logo=devdotto&logoColor=white)](https://dev.to/aorko)
+[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/aorko_404)
 
-**Databases**
-- SQL/NoSQL
-- Redis
-- Distributed Storage
+## GitHub Stats
 
-### 2. ML Infrastructure Stack
-- 🔥 **Model Training**: PyTorch, JAX, TensorFlow
-- 🌐 **Distributed Systems**: PyTorch DDP, DeepSpeed, Megatron-LM
-- ⚡ **Hardware Acceleration**: CUDA, cuDNN, NCCL
-- 🐳 **Orchestration**: Kubernetes, Ray, Docker
-- 📊 **Monitoring**: Prometheus, Grafana, OpenTelemetry
-
-### 3. Active Learning Areas
-- 📐 Advanced Linear Algebra & Tensor Operations
-- 🖥️ CUDA Programming & GPU Optimization
-- 🔄 Distributed Systems Design
-- 🛠️ High-Performance Computing
-- 🧮 Competitive Programming
-
-## 🌐 Socials:
-[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/aorko_404) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/shahir-bin-julfiker-aorko-6ba990281) 
-
-# 💻 Tech Stack
-
-### Core Languages & Frameworks
-![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
-
-### ML & Hardware Acceleration
-![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white)
-![CUDA](https://img.shields.io/badge/CUDA-%2376B900.svg?style=for-the-badge&logo=nvidia&logoColor=white)
-![OpenVINO](https://img.shields.io/badge/OpenVINO-%23AC162C.svg?style=for-the-badge&logo=intel&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white)
-
-### Data Science & Analytics
-![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)
-![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black)
-
-### Web & Cloud
-![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
-![Django](https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
-![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white)
-
-### Databases
-![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
-![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
-![Prisma](https://img.shields.io/badge/Prisma-3982CE?style=for-the-badge&logo=Prisma&logoColor=white)
-
-# 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=aorko01&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
-![](https://github-readme-streak-stats.herokuapp.com/?user=aorko01&theme=dark&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=aorko01&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
-
----
-[![](https://visitcount.itsvg.in/api?id=aorko01&icon=0&color=0)](https://visitcount.itsvg.in)
-
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+![](https://github-readme-stats.vercel.app/api?username=aorko01&theme=dark&hide_border=true&include_all_commits=false&count_private=false)
+![](https://github-readme-streak-stats.herokuapp.com/?user=aorko01&theme=dark&hide_border=true)
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=aorko01&theme=dark&hide_border=true&include_all_commits=false&count_private=false&layout=compact)
